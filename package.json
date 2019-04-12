@@ -1,0 +1,23 @@
+{
+  "name": "alzagro-landing",
+  "version": "1.0.0",
+  "description": "landing page for the Alzagro team",
+  "main": "main.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/globea/alzagro-landing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/globea/alzagro-landing/issues"
+  },
+  "homepage": "https://github.com/globea/alzagro-landing#readme",
+  "dependencies": {
+    "parcel": "^1.12.3"
+  }
+}
