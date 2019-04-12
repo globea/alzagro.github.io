@@ -1,3 +1,17 @@
 * {
   margin: 0;
 }
+
+header {
+  position: fixed;
+}
+
+.screen {
+  width: 100vw;
+}
+
+.main {
+  background: url('assets/main_background.png') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
