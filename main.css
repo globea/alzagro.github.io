@@ -4,14 +4,30 @@
 
 header {
   position: fixed;
+  display: flex;
 }
 
 .screen {
   width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  height: 50vh; /* mock */
+  width: 80vw;
+  margin-top: 150px;
 }
 
 .main {
   background: url('assets/main_background.png') no-repeat center;
   background-size: cover;
   height: 100vh;
+}
+
+.testimonials {
+  background: rgb(40, 40, 40);
+}
+
+.sign-up {
+  background: rgb(50, 115, 152);
 }
