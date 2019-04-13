@@ -1,3 +1,51 @@
 * {
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  position: fixed;
+  display: flex;
+}
+
+.screen {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.content {
+  width: 80vw;
+  margin-top: 100px;
+}
+
+.main {
+  background: url('assets/main_background.png') no-repeat center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.testimonials {
+  background: rgb(40, 40, 40);
+}
+
+.sign-up {
+  background: rgb(50, 115, 152);
+}
+
+.features_content {
+    /* mock */
+  height: 60vh;  
+  border: 2px solid red;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.25rem;
+  margin-bottom: 3rem;
 }
