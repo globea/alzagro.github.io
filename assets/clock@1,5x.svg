@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="71px" height="81px" viewBox="0 0 71 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>clock@1,5x</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Alzagro-Landing" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Alzagro_Web_UX_draft" transform="translate(-539.000000, -2357.000000)">
+            <g id="Advantages" transform="translate(0.000000, 2085.000000)">
+                <g id="elements" transform="translate(150.000000, 272.000000)">
+                    <g id="element_1" transform="translate(293.000000, 0.000000)">
+                        <g id="clock" transform="translate(96.000000, 0.000000)">
+                            <path d="M35.45,19.14 C20.69,19.14 8.68,31.15 8.68,45.91 C8.68,60.67 20.69,72.68 35.45,72.68 C50.21,72.68 62.22,60.67 62.22,45.91 C62.22,31.15 50.21,19.14 35.45,19.14 Z M35.45,80.63 C16.31,80.63 0.73,65.06 0.73,45.91 C0.73,26.77 16.31,11.19 35.45,11.19 C54.6,11.19 70.17,26.77 70.17,45.91 C70.17,65.06 54.6,80.63 35.45,80.63 Z" id="Fill-496" fill="#0094CC"></path>
+                            <path d="M50.29,50.12 L35.19,50.12 C32.99,50.12 31.69,48.9 31.69,46.71 L31.69,25.24 C31.69,23.04 33.49,21.26 35.69,21.26 C37.88,21.26 39.69,23.04 39.69,25.24 L39.69,42.12 L50.29,42.12 C52.49,42.12 54.27,43.92 54.27,46.12 C54.27,48.31 52.49,50.12 50.29,50.12" id="Fill-497" fill="#45C5FF"></path>
+                            <path d="M43.93,8.12 L26.44,8.12 C24.25,8.12 22.47,6.31 22.47,4.12 C22.47,1.92 24.25,0.12 26.44,0.12 L43.93,0.12 C46.13,0.12 47.91,1.92 47.91,4.12 C47.91,6.31 46.13,8.12 43.93,8.12" id="Fill-498" fill="#0094CC"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
