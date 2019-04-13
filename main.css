@@ -84,10 +84,126 @@ li > a,
 
 .features_content {
   /* mock */
-  height: 60vh;
-  border: 2px solid red;
+  height: 70vh;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: flex;
+}
+
+.features_table {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features_image {
+  width: 40vw;
+  height: 90%;
+  background: url('assets/features_background.png') no-repeat center;
+  background-size: cover;
+}
+
+.feature_container {
+  width: 50%;
+  height: 55%;
+  display: flex;
+  flex-direction: column;
+}
+
+.features_icon {
+  width: 80px;
+  height: 80px;
+}
+
+.features_header {
+  font-size: 2rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.features_article {
+  font-size: 1.25rem;
+  margin-right: 80px;
+  margin-top: 2rem;
+  color: rgb(102, 111, 116);
+}
+
+.accurate_icon {
+  background: url('assets/accurate.svg') no-repeat center;
+  background-size: 70%;
+}
+
+.analytics_icon {
+  background: url('assets/analytics.svg') no-repeat center;
+  background-size: 70%;
+}
+
+.infrared_icon {
+  background: url('assets/infrared.svg') no-repeat;
+  background-size: 70%;
+}
+
+.map_icon {
+  background: url('assets/map.svg') no-repeat center;
+  background-size: 70%;
+}
+
+.work_content {
+  display: flex;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+.work_container {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.work_icon {
+  width: 80%;
+  height: 200px;
+}
+
+.work_header{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.work_article{
+  font-size: 1.25rem;
+  margin-right: 80px;
+  margin-top: 2rem;
+  color: rgb(102, 111, 116);
+}
+
+.easy_icon {
+  background: url('assets/easy.svg') no-repeat center;
+  background-size: 100% auto;
+}
+
+.confirm_icon {
+  background: url('assets/confirm.svg') no-repeat center;
+  background-size: 80% auto;
+}
+
+.automatic_icon {
+  background: url('assets/automatic.svg') no-repeat center;
+  background-size: 70% auto;
+}
+
+.immediate_icon {
+  background: url('assets/immediate.svg') no-repeat center;
+  background-size: 70% auto;
 }
 
 h3 {
