@@ -1,11 +1,11 @@
 {
-    "home_link": "Home",
-    "features_link": "Features",
-    "why_link": "Why Cropler",
-    "prices_link": "Prices",
-    "team_link": "Team",
-    "signup_link": "Sign Up",
-    "language_button": "ENG"
+    "home_link": "HOME",
+    "features_link": "FEATURES",
+    "why_link": "WHY CROPLER",
+    "prices_link": "PRICES",
+    "team_link": "TEAM",
+    "signup_link": "SIGN UP",
+    "language_button": "ENG",
     "features_title1": "A reliable grain sampling drone.",
     "features_title2": "That is Cropler.",
     "features_title3": "How Cropler works?"
