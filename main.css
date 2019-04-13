@@ -85,10 +85,72 @@ li > a,
 .features_content {
   /* mock */
   height: 60vh;
-  border: 2px solid red;
   margin-top: 3rem;
   margin-bottom: 3rem;
+  display: flex;
 }
+
+.features_table {
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features_image {
+  width: 40vw;
+  height: 90%;
+  background: url('assets/features_background.png') no-repeat center;
+  background-size: cover;
+}
+
+.feature_container {
+  width: 50%;
+  height: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.features_icon {
+  width: 60px;
+  height: 60px;
+}
+
+.features_header {
+  font-size: 2rem;
+  height: 5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 100px;
+  font-weight: bold;
+}
+
+.features_article {
+  font-size: 1.25rem;
+  margin-right: 50px;
+  color: rgb(102, 111, 116)
+}
+
+.accurate_icon {
+  background: url('assets/accurate.svg') no-repeat center;
+  background-size: 100%;
+}
+
+.analytics_icon {
+  background: url('assets/analytics.svg') no-repeat center;
+  background-size: cover;
+}
+
+.infrared_icon {
+  background: url('assets/infrared.svg') no-repeat;
+  background-size: 70%;
+}
+
+.map_icon {
+  background: url('assets/map.svg') no-repeat center;
+  background-size: 90%;
+}
+
 
 h3 {
   font-size: 2.5rem;
