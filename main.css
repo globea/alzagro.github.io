@@ -7,6 +7,18 @@
 header {
   position: fixed;
   display: flex;
+  width: 100%;
+  background: (0, 0, 0, 0);
+}
+
+header > ul {
+  display: flex;
+  color: white;
+}
+
+ul > li {
+  list-style-type: none;
+  color: white;
 }
 
 .screen {
