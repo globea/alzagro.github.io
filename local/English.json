@@ -8,5 +8,21 @@
     "language_button": "ENG",
     "features_title1": "A reliable grain sampling drone.",
     "features_title2": "That is Cropler.",
-    "features_title3": "How Cropler works?"
+    "features_title3": "How Cropler works?",
+    "features_accurate_header": "ACCURATE GRAIN SAMPLING",
+    "features_article_accurate": "The Cropler drone flies over the grain and gets numerous samples. It makes sure you can have a clear decision on the grain's quality.",
+    "features_analytics_header": "GRAIN PILE ANALITYCS",
+    "features_article_analytics": "Cropler tells you the amount of grain you are anout to sample and design the samplying route by itself",
+    "features_infrared_header": "INFRARED QUALITY CHECK",
+    "features_article_infrared": "The built-in infrared quality check gives you quick results on the grain's quality",
+    "features_map_header": "GRAIN QUALITY MAP",
+    "features_article_map": "After the quality is analyzed, it shows you the quality map of your grain pile",
+    "work_easy_header": "EASY TAKE-OFF",
+    "work_article_easy": "With one simple click on your smartphone and the drone takes off and recognizes the grain pile by itself and creates a sampling route",
+    "work_confirm_header": "CONFIRM THE ROUTE",
+    "work_article_confirm": "The route will be based on international sampling standards and on the amount of the actual grain pile. Confirm or adjust.",
+    "work_automatic_header": "AUTOMATIC SAMPLING",
+    "work_article_automatic": "The drone makes samples across the sections of the pile. Works with a vacuum system, and the method takes about 10 seconds per sample taking.",
+    "work_immediate_header": "IMMEDIATE RESULTS",
+    "work_article_immediate": "Quick and accurate results based on the samples taken and analyzed with NIR technology. Gives accurate protein, mosture, gluten percentage"
 }
