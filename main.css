@@ -77,10 +77,41 @@ li > a,
   background-size: cover;
   height: 100vh;
   display: flex;
+  justify-content: start;
 }
 
-.main > .signup_button_main {
-  background: rgb(50, 115, 152);
+.main-container {
+  margin: auto 100px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.main-buttons {
+  display: flex;
+  margin-top: 20px;
+}
+
+#main_title,
+#main_title2,
+#main_description {
+  color: white;
+  margin-bottom:10px;
+}
+
+#main_description {
+  font-size: 1.5rem;
+  width: 500px;
+}
+
+#alzagro_cropler {
+  color: rgb(161, 245, 253);
+  margin-bottom: 20px;
+}
+
+.signup_button_main {
+  background: rgb(62, 147, 199);
+  margin-right: 30px;
 }
 
 .features_button {
@@ -188,16 +219,16 @@ li > a,
   height: 200px;
 }
 
-.work_header{
+.work_header {
   font-size: 1.5rem;
   margin-top: 1rem;
-  height: 2rem;;
+  height: 2rem;
   margin-bottom: 1rem;
   margin-right: 100px;
   font-weight: bold;
 }
 
-.work_article{
+.work_article {
   font-size: 1.25rem;
   margin-right: 80px;
   margin-top: 2rem;
@@ -292,7 +323,7 @@ li > a,
   max-width: 200px;
 }
 
-.why_description{
+.why_description {
   font-size: 1rem;
   max-width: 200px;
   color: rgb(102, 111, 116);
