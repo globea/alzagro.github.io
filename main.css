@@ -96,7 +96,7 @@ li > a,
 #main_title2,
 #main_description {
   color: white;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 #main_description {
@@ -104,7 +104,8 @@ li > a,
   width: 500px;
 }
 
-#alzagro_cropler {
+#alzagro_cropler,
+#testimonials_title {
   color: rgb(161, 245, 253);
   margin-bottom: 20px;
 }
@@ -332,6 +333,46 @@ li > a,
   color: rgb(102, 111, 116);
 }
 
+.testimonials { 
+  width: 100vw;
+  display: flex;
+  color: white;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial_textbox {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+}
+
+.testimonial_textbox > * {
+  margin: 0 10vw;
+}
+
+.testimonial_textbox > h3 {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.testimonial_textbox > h2 {
+  font-size: 1rem;
+}
+
+.testimonial_textbox > p {
+  margin-top: 10px;
+}
+
+.testimonial-image {
+  background: url('./assets/grain_hands.png') center no-repeat;
+  background-size: cover;
+  height: 500px;
+  width: 50vw;
+
+}
+
 .prices_container {
   width: 100%;
   height: 20vh;
@@ -408,7 +449,7 @@ select {
   width: 250px;
   height: 2.5rem;
   margin: 20px;
-  font-size: 1.5rem; 
+  font-size: 1.5rem;
 }
 
 h3 {
