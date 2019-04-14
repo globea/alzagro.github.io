@@ -35,6 +35,7 @@ ul > li {
 }
 
 li > a,
+.features_button > a,
 .language_button > a,
 .signup_button > a {
   color: white;
@@ -75,14 +76,21 @@ li > a,
   background: url('assets/main_background.png') no-repeat center;
   background-size: cover;
   height: 100vh;
+  display: flex;
+}
+
+.main > .signup_button_main {
+  background: rgb(50, 115, 152);
+}
+
+.features_button {
+  background: rgb(102, 111, 116);
+  padding: 10px 40px;
+  border-radius: 2px;
 }
 
 .testimonials {
   background: rgb(40, 40, 40);
-}
-
-.sign-up {
-  background: rgb(50, 115, 152);
 }
 
 .features_content {
