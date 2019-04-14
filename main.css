@@ -136,6 +136,7 @@ li > a,
   /* mock */
   height: 60vh;
   display: flex;
+  flex-direction: column;
 }
 
 .features_table {
