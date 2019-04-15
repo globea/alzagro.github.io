@@ -156,6 +156,7 @@ li > a,
   height: 90%;
   background: url('assets/features_background.png') no-repeat center;
   background-size: cover;
+  border-radius: 2px;
 }
 
 .feature_container {
