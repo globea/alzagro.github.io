@@ -498,6 +498,7 @@ li > a,
   background-size: contain;
   width: 320px;
   height: 270px;
+  border-radius: 2px;
 }
 
 footer {
