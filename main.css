@@ -4,6 +4,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body { 
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
@@ -450,6 +454,7 @@ footer {
   margin: 0 20vw 0 10vw;
   display: flex;
   justify-content: space-between;
+  position: relative;
 }
 
 #contacts,
@@ -463,9 +468,9 @@ footer {
 .footer-column {
   display: flex;
   flex-direction: column;
-  margin-bottom: 50px;
   line-height: 2;
   color: rgb(102, 111, 116);
+  margin-bottom: 200px;
 }
 
 .footer-column > a {
@@ -474,6 +479,20 @@ footer {
 
 #representer_title {
   margin-top: 30px;
+}
+
+.szechenyi {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+}
+
+.hiventures {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
 }
 
 select {
