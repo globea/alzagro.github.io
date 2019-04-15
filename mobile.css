@@ -2,6 +2,75 @@
   width: 90vw;
 }
 
-h3 {
-  font-size: 1.5rem;
+.main-container {
+  margin: auto 50px;
+}
+
+.main-container > :not(div) {
+  text-shadow: black 2px 2px;
+}
+
+#main_description {
+  width: 100%;
+}
+
+.main-buttons {
+  flex-direction: column;
+}
+
+.main-buttons > * {
+  width: 80vw;
+  padding: 20px 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.features_image {
+  display: none;
+}
+
+.features_table {
+  width: 100%;
+}
+
+.features_content {
+  height: 70vh;
+}
+
+.features_article {
+  margin-right: 30px;
+  margin-top: 4rem;
+}
+
+.work_content {
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+
+.work_container {
+  width: 100%;
+}
+
+.work_header {
+  margin-top: 3rem;
+  margin-bottom: 0;
+  height: 3rem;
+}
+
+.work_article {
+  margin: 1rem 0;
+}
+
+.work_icon {
+  margin-top: 3rem;
+}
+
+
+.member-container {
+  display: none;
+}
+
+header {
+  display: none;
 }
