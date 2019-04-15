@@ -445,6 +445,30 @@ li > a,
   font-size: 1.25rem;
 }
 
+footer {
+  margin: 0 10vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#contacts,
+#alzagro_footer,
+#social {
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  line-height: 2;
+}
+
+.footer-column > a {
+  color: rgb(62, 147, 199);
+}
+
 select {
   width: 250px;
   height: 2.5rem;
