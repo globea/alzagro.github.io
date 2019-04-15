@@ -333,7 +333,7 @@ li > a,
   color: rgb(102, 111, 116);
 }
 
-.testimonials { 
+.testimonials {
   width: 100vw;
   display: flex;
   color: white;
@@ -370,7 +370,6 @@ li > a,
   background-size: cover;
   height: 500px;
   width: 50vw;
-
 }
 
 .prices_container {
@@ -401,7 +400,8 @@ li > a,
 }
 
 .sign-up {
-  background: url('assets/farmer-in-field-touching-his-meat.png') no-repeat center;
+  background: url('assets/farmer-in-field-touching-his-meat.png') no-repeat
+    center;
   background-size: cover;
   background-color: rgb(62, 147, 199);
   height: 50vh;
@@ -424,7 +424,8 @@ li > a,
   font-size: 1.25rem;
 }
 
-#signup_description, #signup_title {
+#signup_description,
+#signup_title {
   color: white;
   margin-bottom: 1rem;
 }
@@ -446,7 +447,7 @@ li > a,
 }
 
 footer {
-  margin: 0 10vw;
+  margin: 0 20vw 0 10vw;
   display: flex;
   justify-content: space-between;
 }
@@ -456,6 +457,7 @@ footer {
 #social {
   font-weight: 600;
   margin-bottom: 30px;
+  color: black;
 }
 
 .footer-column {
@@ -463,10 +465,15 @@ footer {
   flex-direction: column;
   margin-bottom: 50px;
   line-height: 2;
+  color: rgb(102, 111, 116);
 }
 
 .footer-column > a {
   color: rgb(62, 147, 199);
+}
+
+#representer_title {
+  margin-top: 30px;
 }
 
 select {
