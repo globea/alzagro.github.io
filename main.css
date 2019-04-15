@@ -4,6 +4,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
+body { 
+  position: relative;
+}
+
 a {
   text-decoration: none;
 }
@@ -333,7 +337,7 @@ li > a,
   color: rgb(102, 111, 116);
 }
 
-.testimonials { 
+.testimonials {
   width: 100vw;
   display: flex;
   color: white;
@@ -370,7 +374,6 @@ li > a,
   background-size: cover;
   height: 500px;
   width: 50vw;
-
 }
 
 .prices_container {
@@ -401,7 +404,8 @@ li > a,
 }
 
 .sign-up {
-  background: url('assets/farmer-in-field-touching-his-meat.png') no-repeat center;
+  background: url('assets/farmer-in-field-touching-his-meat.png') no-repeat
+    center;
   background-size: cover;
   background-color: rgb(62, 147, 199);
   height: 50vh;
@@ -424,7 +428,8 @@ li > a,
   font-size: 1.25rem;
 }
 
-#signup_description, #signup_title {
+#signup_description,
+#signup_title {
   color: white;
   margin-bottom: 1rem;
 }
@@ -443,6 +448,51 @@ li > a,
   background: rgb(40, 40, 40);
   font-style: bold;
   font-size: 1.25rem;
+}
+
+footer {
+  margin: 0 20vw 0 10vw;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#contacts,
+#alzagro_footer,
+#social {
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.footer-column {
+  display: flex;
+  flex-direction: column;
+  line-height: 2;
+  color: rgb(102, 111, 116);
+  margin-bottom: 200px;
+}
+
+.footer-column > a {
+  color: rgb(62, 147, 199);
+}
+
+#representer_title {
+  margin-top: 30px;
+}
+
+.szechenyi {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 20vw;
+}
+
+.hiventures {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 20vw;
 }
 
 select {
