@@ -4,7 +4,7 @@
   font-family: 'Roboto', sans-serif;
 }
 
-body { 
+body {
   position: relative;
 }
 
@@ -20,6 +20,7 @@ header {
   align-items: center;
   justify-content: space-evenly;
   transition: 1s;
+  z-index: 1;
 }
 
 .logo-image {
@@ -449,6 +450,54 @@ li > a,
   background: rgb(40, 40, 40);
   font-style: bold;
   font-size: 1.25rem;
+}
+
+#team_subtitle,
+#team_description {
+  text-align: center;
+}
+
+#team_description {
+  color: rgb(102, 111, 116);
+  margin-top: 30px;
+}
+
+.member-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.team-member {
+  border: 1px solid rgb(148, 148, 148);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#member_name1,
+#member_name2,
+#member_name3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+#member_occupation1,
+#member_occupation2,
+#member_occupation3 {
+  font-size: 1rem;
+  margin: 10px 0;
+  color: rgb(102, 111, 116);
+}
+
+.member-photo {
+  background: url('assets/young-businessman-in-office-PKWUY7G.png') no-repeat
+    center;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+  background-size: contain;
+  width: 320px;
+  height: 270px;
 }
 
 footer {
