@@ -71,5 +71,14 @@
     "email": "info@alzagro.hu",
     "phone": "+36 23 504 895",
     "representer_title": "Represented by",
-    "representer": "Alfréd Rombolotto, CEO"
+    "representer": "Alfréd Rombolotto, CEO",
+    "team_title": "Team",
+    "team_subtitle": "Meet the Alzagro team",
+    "team_description": "Our team is commited to serve you with a reliable sample graining innovation",
+    "member_name1": "Alex Tóth",
+    "member_name2": "Alfréd Rombolotto",
+    "member_name3": "Zalán Túri",
+    "member_occupation1": "Chief of Marketing",
+    "member_occupation2": "Chief of Technology",
+    "member_occupation3": "Chief of Sales"
 }
