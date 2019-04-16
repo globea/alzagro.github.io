@@ -122,6 +122,18 @@
   text-align: center;
 }
 
+.sign-up {
+  height: auto;
+}
+
+.content > form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .member-container {
   display: none;
 }

@@ -120,6 +120,13 @@ li > a,
   margin-right: 30px;
 }
 
+.content > form {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+
 .features_button {
   background: rgb(102, 111, 116);
   padding: 10px 40px;
@@ -410,7 +417,6 @@ li > a,
     center;
   background-size: cover;
   background-color: rgb(62, 147, 199);
-  height: 35vh;
 }
 
 .sign-up > .content {
@@ -450,6 +456,9 @@ li > a,
   background: rgb(40, 40, 40);
   font-style: bold;
   font-size: 1.25rem;
+  padding: 0;
+  height: 2.5rem;
+  width: 200px;
 }
 
 #team_subtitle,
