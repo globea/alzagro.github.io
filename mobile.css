@@ -27,6 +27,7 @@
   padding: 20px 0;
   text-align: center;
   margin-top: 30px;
+  max-width: 400px;
 }
 
 .features_image {
@@ -104,6 +105,21 @@
 
 .testimonials {
   height: auto;
+}
+
+.prices_container {
+  height: auto;
+  margin-bottom: 50px;
+  margin-top: 25px;
+  flex-wrap: wrap;
+}
+
+.prices_container > .why_item {
+  margin-bottom: 30px;
+}
+
+.why_item > .prices_header {
+  text-align: center;
 }
 
 .member-container {
