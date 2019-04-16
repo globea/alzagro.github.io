@@ -135,6 +135,29 @@
 }
 
 .member-container {
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.team-member {
+  max-width: 350px;
+  margin-bottom: 30px;
+}
+
+footer {
+  flex-direction: column;
+}
+
+.footer-column {
+  margin-bottom: 20px;
+}
+
+.szechenyi, .hiventures {
+  width: 200px;
+}
+
+#social {
   display: none;
 }
 
