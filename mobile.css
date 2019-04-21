@@ -10,12 +10,18 @@
   background-color: rgba(0,0,0,0.4);
 }
 
+#main_title, #main_title2 {
+  font-size: 1.5rem;
+}
+
 #alzagro_cropler {
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 #main_description {
   width: 100%;
+  max-width: 300px;
+  font-size: 1rem;
 }
 
 .main-buttons {
@@ -38,13 +44,8 @@
   width: 100%;
 }
 
-.features_content {
-  height: 70vh;
-}
-
 .features_article {
   margin-right: 30px;
-  margin-top: 4rem;
 }
 
 .work_content {
