@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/a082fd3df68a0b54e0d4d794bc38d268?family=Blender+Pro);
+
 * {
   margin: 0;
   scroll-behavior: smooth;
@@ -44,7 +46,7 @@ li > a,
 .language_button > a,
 .signup_button > a {
   color: white;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 1rem;
 }
 
@@ -98,16 +100,29 @@ li > a,
   margin-top: 20px;
 }
 
+.features_header,
+.work_header,
+.why_header,
+.prices_header,
+.font,
+li > *,
+#social {
+  font-family: Blender Pro;
+  letter-spacing: 0.1rem;
+}
+
 #main_title,
 #main_title2,
 #main_description {
   color: white;
   margin-bottom: 10px;
+  font-weight: 600;
 }
 
 #main_description {
   font-size: 1.5rem;
   width: 500px;
+  font-weight: 100;
 }
 
 #alzagro_cropler,
@@ -283,6 +298,11 @@ li > a,
 #why_article {
   margin-top: 2rem;
   font-size: 1.25rem;
+}
+
+#why_title {
+  margin: auto;
+  max-width: 400px;
 }
 
 .why_container {
