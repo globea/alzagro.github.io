@@ -7,6 +7,12 @@
     <link href="https://db.onlinewebfonts.com/c/a082fd3df68a0b54e0d4d794bc38d268?family=Blender+Pro" rel="stylesheet" type="text/css"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="icon" type="image/png" sizes="48x48" href="./assets/favicon.ico">
+    <script type="text/javascript" src="https://cdn.emailjs.com/sdk/2.3.2/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+        emailjs.init("user_5jRKuz68gO7igW4R6Lauq");
+    })();
+    </script>
     <script src="./main.js"></script>
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" media='screen and (min-width: 200px) and (max-width: 800px)' href='mobile.css' />
@@ -190,14 +196,17 @@
                 <h3 id="signup_title" class="font"></h3>
                 <article id="signup_description"></article>
             </div>
-            <form action="">
-                <input type="text" class="signup-input" placeholder="YOUR NAME">
-                <input type="email" class="signup-input" placeholder="YOUR EMAIL">
+            <form id="subscribe">
+                <input type="text" class="signup-input" placeholder="YOUR NAME" required>
+                <input type="email" class="signup-input" placeholder="YOUR EMAIL" required>
                 <select name="" id="" class="">
                     <option value="dealer" id="option1"></option>
                 </select>
                 <button id="real-signup-button" class="signup_button real-signup font"></button>
             </form>
+            <div class="title_container">
+                <article id="signup_success" class="hidden"></article>
+            </div>
         </div>
     </div>
     <div class="screen team" id="team">
