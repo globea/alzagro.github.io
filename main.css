@@ -1,7 +1,7 @@
 * {
   margin: 0;
   scroll-behavior: smooth;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -79,7 +79,7 @@ li > a,
 }
 
 .main {
-  background: url('assets/main_background.png') no-repeat center;
+  background: url("assets/main_background.png") no-repeat center;
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -159,7 +159,7 @@ li > a,
 .features_image {
   width: 40vw;
   height: 90%;
-  background: url('assets/features_background.png') no-repeat center;
+  background: url("assets/features_background.png") no-repeat center;
   background-size: cover;
   border-radius: 2px;
 }
@@ -193,22 +193,22 @@ li > a,
 }
 
 .accurate_icon {
-  background: url('assets/accurate.svg') no-repeat center;
+  background: url("assets/accurate.svg") no-repeat center;
   background-size: 70%;
 }
 
 .analytics_icon {
-  background: url('assets/analytics.svg') no-repeat center;
+  background: url("assets/analytics.svg") no-repeat center;
   background-size: 70%;
 }
 
 .infrared_icon {
-  background: url('assets/infrared.svg') no-repeat center;
+  background: url("assets/infrared.svg") no-repeat center;
   background-size: 70%;
 }
 
 .map_icon {
-  background: url('assets/map.svg') no-repeat center;
+  background: url("assets/map.svg") no-repeat center;
   background-size: 70%;
 }
 
@@ -247,22 +247,22 @@ li > a,
 }
 
 .easy_icon {
-  background: url('assets/easy.svg') no-repeat center;
+  background: url("assets/easy.svg") no-repeat center;
   background-size: 100% auto;
 }
 
 .confirm_icon {
-  background: url('assets/confirm.svg') no-repeat center;
+  background: url("assets/confirm.svg") no-repeat center;
   background-size: 80% auto;
 }
 
 .automatic_icon {
-  background: url('assets/automatic.svg') no-repeat center;
+  background: url("assets/automatic.svg") no-repeat center;
   background-size: 70% auto;
 }
 
 .immediate_icon {
-  background: url('assets/immediate.svg') no-repeat center;
+  background: url("assets/immediate.svg") no-repeat center;
   background-size: 70% auto;
 }
 
@@ -301,28 +301,40 @@ li > a,
   align-items: center;
 }
 
+.hidden {
+  display: none !important;
+}
+
+#signup_success {
+  height: 280;
+  font-size: 2rem;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 .why_icon {
   width: 100px;
   height: 100px;
 }
 
 .quality_icon {
-  background: url('assets/quality.svg') no-repeat center;
+  background: url("assets/quality.svg") no-repeat center;
   background-size: 50%;
 }
 
 .seconds_icon {
-  background: url('assets/seconds.svg') no-repeat center;
+  background: url("assets/seconds.svg") no-repeat center;
   background-size: 50%;
 }
 
 .support_icon {
-  background: url('assets/support.svg') no-repeat center;
+  background: url("assets/support.svg") no-repeat center;
   background-size: 70%;
 }
 
 .better_icon {
-  background: url('assets/better.svg') no-repeat center;
+  background: url("assets/better.svg") no-repeat center;
   background-size: 50%;
 }
 
@@ -375,7 +387,7 @@ li > a,
 }
 
 .testimonial-image {
-  background: url('./assets/grain_hands.png') center no-repeat;
+  background: url("./assets/grain_hands.png") center no-repeat;
   background-size: cover;
   height: 500px;
   width: 50vw;
@@ -408,7 +420,7 @@ li > a,
 }
 
 .sign-up {
-  background: url('assets/farmer-in-field-touching-his-meat.png') no-repeat
+  background: url("assets/farmer-in-field-touching-his-meat.png") no-repeat
     center;
   background-size: cover;
   background-color: rgb(62, 147, 199);
@@ -495,7 +507,7 @@ li > a,
 }
 
 .member-photo {
-  background: url('assets/young-businessman-in-office-PKWUY7G.png') no-repeat
+  background: url("assets/young-businessman-in-office-PKWUY7G.png") no-repeat
     center;
   -webkit-filter: grayscale(100%);
   filter: gray;

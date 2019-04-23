@@ -194,14 +194,17 @@
                 <h3 id="signup_title"></h3>
                 <article id="signup_description"></article>
             </div>
-            <form action="false; loadSubscription">
-                <input type="text" class="signup-input" placeholder="YOUR NAME">
-                <input type="email" class="signup-input" placeholder="YOUR EMAIL">
+            <form id="subscribe">
+                <input type="text" class="signup-input" placeholder="YOUR NAME" required>
+                <input type="email" class="signup-input" placeholder="YOUR EMAIL" required>
                 <select name="" id="" class="">
                     <option value="dealer" id="option1"></option>
                 </select>
                 <button id="real-signup-button" class="signup_button real-signup"></button>
             </form>
+            <div class="title_container">
+                <article id="signup_success" class="hidden"></article>
+            </div>
         </div>
     </div>
     <div class="screen team" id="team">
