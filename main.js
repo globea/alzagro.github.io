@@ -24,7 +24,7 @@ const formListenerInit = _ => {
   document.querySelector("#subscribe").addEventListener("submit", function(e) {
     e.preventDefault();
     if (e.isTrusted) {
-      emailjs.send("mailjet", "template_kvgAjN6o", {
+      emailjs.send("mailjet_alzagro", "template_kvgAjN6o", {
         name: e.target[0].value,
         email_address: e.target[1].value,
         work: e.target[2].innerText
