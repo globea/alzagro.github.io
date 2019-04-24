@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  background: rgb(22, 21, 24);
+}
+
+body {
+  max-width: 70vw;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+body > * {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: Blender Pro;
+  color: rgb(62, 147, 199);
+}
+
+h2 {
+    margin-top: 3rem;
+    margin-right: 0.5rem;
+}
+
+h1 {
+  margin-right: 0.5rem;
+}
+
+h3 {
+    margin-left: 1rem;
+  margin-top: 2rem;
+}
+
+header {
+  display: flex;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+article {
+  color: rgb(214, 214, 214);
+  font-size: 1.25rem;
+  font-weight: 100;
+  margin: 1rem;
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+}
