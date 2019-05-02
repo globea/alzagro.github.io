@@ -597,6 +597,8 @@ footer {
   justify-content: center;
   align-items: center;
   padding-top: 5px;
+  z-index: 5;
+  display: none;
 }
 
 #banner-text {
@@ -616,6 +618,10 @@ footer {
 .accept {
   padding: 8px;
   border: 3px solid white;
+}
+
+#banner-read-more {
+  text-decoration: underline;
 }
 
 select {

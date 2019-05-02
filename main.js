@@ -50,11 +50,23 @@ const formListenerInit = _ => {
   });
 };
 
+const detectCookie = _ => {
+  const isConsentAgreed = document.cookie.split(';').filter((item) => item.trim().startsWith('cookieConsentAgreed=')).length === 0;
+  const banner = document.querySelector('.banner');
+  banner.style.display = isConsentAgreed ? 'flex': 'none';
+}
+
+const gimmeCookies = _ => {
+  document.cookie = "cookieConsentAgreed=1";
+  document.querySelector('.banner').style.display = 'none';
+}
+
 window.onload = _ => {
   // plz work i don't have catch block
   translate('English');
   formListenerInit();
   changeLanguage();
+  detectCookie();
 };
 
 window.onscroll = _ => {
