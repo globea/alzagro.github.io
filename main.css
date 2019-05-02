@@ -587,6 +587,37 @@ footer {
   width: 20vw;
 }
 
+.banner {
+  position: fixed;
+  bottom: 0;
+  background: black;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+}
+
+#banner-text {
+  color: white;
+  margin-right: 300px;
+}
+
+.cookies-button {
+  margin-right: 4rem;
+}
+
+.banner-content {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.accept {
+  padding: 8px;
+  border: 3px solid white;
+}
+
 select {
   width: 250px;
   height: 2.5rem;
@@ -596,6 +627,11 @@ select {
 
 h3 {
   font-size: 2.5rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2rem;
   font-weight: 600;
 }
 
