@@ -532,7 +532,7 @@ li > *,
 }
 
 .member-photo {
-  background: url("assets/ZALAN_FF.jpg") no-repeat
+  background: url("") no-repeat
     center;
   -webkit-filter: grayscale(100%);
   filter: gray;
