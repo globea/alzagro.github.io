@@ -178,7 +178,6 @@ li > *,
 
 .features_image {
   width: 40vw;
-  height: 90%;
   background: url("assets/features_background.png") no-repeat center;
   background-size: cover;
   border-radius: 2px;
@@ -642,6 +641,6 @@ h4 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 2rem;
   margin-bottom: 3rem;
 }
