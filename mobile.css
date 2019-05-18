@@ -162,7 +162,7 @@ footer {
   display: none;
 }
 
-header {
+.desktop-header {
   display: none;
 }
 
@@ -183,3 +183,64 @@ header {
   margin: 0;
   margin-bottom: 1rem;
 }
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(40, 40, 40);
+  width: 100vw;
+  padding: 0;
+  height: 10vh;
+}
+
+.logo-wrapper, .options-wrapper {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.header-title {
+  font-size: 1.5rem;
+  margin-left: 10px;
+}
+
+.logo-image {
+  height: 5vh;
+  margin-left: 15px;
+}
+
+.hamburger {
+  height: 5vh;
+  width: 5vh;
+  margin-left: 35px;
+  font-size: 5vh;
+  padding-bottom: 2vh;
+}
+
+.menu-popup {
+  display: block;
+  padding-top: 7vh;
+  position: fixed;
+  right: -1px;
+  background: rgb(40, 40, 40);
+}
+
+.popup-list {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+.popup-list > li {
+  margin: 20px 5px 20px 20px;
+}
+
+.popup-list > * > a {
+  font-size: 1.5rem;
+}
+
+.header-title-link {
+  color: white;
+}
+
+

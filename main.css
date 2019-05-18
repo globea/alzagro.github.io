@@ -5,6 +5,14 @@
   font-style: normal;
 }
 
+.mobile-header{
+  display: none;
+}
+
+.menu-popup {
+  display: none;
+}
+
 * {
   margin: 0;
   scroll-behavior: smooth;
