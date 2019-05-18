@@ -24,14 +24,14 @@ const changeLanguage = _ => {
   });
 };
 
-const changeHeaderOnScroll = () => {
+const positionBelowMainScreen = _ => {
   const height = document.querySelector('.main').clientHeight;
-  document.body.scrollTop > height - 1 ||
-  document.documentElement.scrollTop > height - 1
-    ? (document.querySelector('header').style.backgroundColor =
-        'rgba(0, 0, 0, 1)')
-    : (document.querySelector('header').style.backgroundColor =
-        'rgba(0, 0, 0, 0)');
+  return document.body.scrollTop > height - 1 || document.documentElement.scrollTop > height - 1;
+}
+
+const changeHeaderOnScroll = () => {
+  const visibility = positionBelowMainScreen() ? '1' : '0';
+  document.querySelector('header').style.backgroundColor = `rgba(40, 40, 40, ${visibility})`;
 };
 
 const formListenerInit = _ => {
