@@ -243,4 +243,11 @@ footer {
   color: white;
 }
 
+.language_button {
+  position: unset;
+}
 
+.language-popup {
+  right: 67px;
+  top: 50px;
+}

@@ -11,17 +11,25 @@ const translate = lang => {
 };
 
 const changeLanguage = _ => {
-  const languageButton = document.querySelector('#language_button');
-  languageButton.addEventListener('click', e => {
-    if (languageButton.innerText === 'HU') {
-      translate('Hungarian');
-      languageButton.innerText = 'ENG';
-    } else {
-      translate('English');
-      languageButton.innerText = 'HU';
-    }
-    e.preventDefault();
+  const popup = document.querySelector('.language-popup');
+  document.querySelectorAll('.language_button').forEach(b => {
+    b.addEventListener('click', _ => {
+      popup.classList.toggle('hidden');
+    });
   });
+  window.addEventListener('scroll', _ => {
+    if (!popup.classList.contains('hidden')) {
+      popup.classList.add('hidden');
+    }
+  });
+  document.querySelectorAll('.lb').forEach(lb => {
+    lb.addEventListener('click', lbEvent => {
+      popup.classList.add('hidden');
+      const targetLanguage = lbEvent.target.innerText;
+      document.querySelectorAll('.language_button').forEach(b => b.innerText = targetLanguage);
+      translate(targetLanguage);
+    });
+  })
 };
 
 const positionBelowMainScreen = _ => {
@@ -75,7 +83,7 @@ const hamburger = _ => {
 
 window.onload = _ => {
   // plz work i don't have catch block
-  translate('English');
+  translate('EN');
   formListenerInit();
   changeLanguage();
   detectCookie();

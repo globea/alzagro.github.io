@@ -65,12 +65,15 @@ li > a,
 
 .language_button {
   border: solid 2px white;
+  color: white;
   border-radius: 2px;
   padding: 1px 10px;
+  position: absolute;
+  right: 15px;
 }
 
 .language_button > a {
-  font-size: 0.75rem;
+  font-size: 1rem;
 }
 
 .signup_button {
@@ -664,4 +667,23 @@ h4 {
 h2 {
   font-size: 2rem;
   margin-bottom: 3rem;
+}
+
+.language-popup {
+  position: fixed;
+  z-index: 10;
+  right: 14px;
+  top: 60px;
+  background: rgb(40, 40, 40);
+  border: solid 2px white;
+  border-radius: 2px;
+}
+
+.language-popup > ul {
+  padding: 0;
+}
+
+.language-popup > * > li {
+  margin: 10px;
+  text-align: center;
 }
