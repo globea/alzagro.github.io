@@ -61,12 +61,25 @@ const gimmeCookies = _ => {
   document.querySelector('.banner').style.display = 'none';
 }
 
+const hamburger = _ => {
+  const popup = document.querySelector('.popup-list');
+  document.querySelector('.hamburger').addEventListener('click', _ => {
+    popup.classList.toggle('hidden');
+  });
+  window.addEventListener('scroll', _ => {
+    if (!popup.classList.contains('hidden')) {
+      popup.classList.add('hidden');
+    }
+  })
+}
+
 window.onload = _ => {
   // plz work i don't have catch block
   translate('English');
   formListenerInit();
   changeLanguage();
   detectCookie();
+  hamburger();
 };
 
 window.onscroll = _ => {
