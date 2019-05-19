@@ -248,6 +248,7 @@ footer {
 }
 
 .language-popup {
-  right: 67px;
+  right: 5vh;
+  margin-right: 35px;
   top: 50px;
 }
